@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,81 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Sesión 57</h1>
+    <!--containers-->
+    <div class="container text-white bg-dark">
+        <p>.container</p>
+    </div>
+
+    <div class="container-fluid text-white bg-dark">
+        <p>.container-fluid</p>
+    </div>
+
+    <!--Colores en bootstrap-->
+    <h1>Colores en Bootstrap</h1>
+
+    <p class="text-primary">.text-primary</p>
+    <p class="text-secondary bg-info">.text-secondary</p>
+    <p class="text-success bg-warning">.text-success</p>
+    <p class="text-danger">.text-danger</p>
+    <p class="text-warning">.text-warning</p>
+    <p class="text-info">.text-info</p>
+    <p class="text-light bg-dark">.text-light</p>
+    <p class="text-dark">.text-dark</p>
+    <p class="text-body bg-success">.text-body</p>
+    <p class="text-black bg-primary">.text-black</p>
+    <p class="text-white bg-white">.text-white</p>
+
+    <!--Alineación de texto-->
+    <h2>Alineación de texto</h2>
+    <p class="text-start">kjfhoijfieruhervnevj</p>
+    <p class="text-center">kjfhoijfieruhervnevj</p>
+    <p class="text-end">kjfhoijfieruhervnevj</p>
+
+    <!--Displays-->
+    <h1 class="display-1">display-1</h1>
+    <h1 class="display-2">display-2</h1>
+    <h1 class="display-3">display-3</h1>
+    <h1 class="display-4">display-4</h1>
+    <h1 class="display-5">display-5</h1>
+    <h1 class="display-6">display-6</h1>
+
+
+    <h1>Form</h1>
+    <form class="container my-5">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">
+            Nunca compartiremos su correo electrónico con nadie más.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        <select class="form-select mb-3" aria-label="Default select example">
+            <option selected>Abrir menú</option>
+            <option value="1">Uno</option>
+            <option value="2">Dos</option>
+            <option value="3">Tres</option>
+          </select>
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Blanco
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Negro
+            </label>
+          </div>
+        <button type="submit" class="btn btn-primary m-4">Submit</button>
+
+      </form>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
